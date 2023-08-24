@@ -1,0 +1,23 @@
+body {
+  background-color: #F0F0FF;
+}
+h1,h2,h3 {
+  color: #0000FF;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.author {
+  text-align: right;
+}
+.center_box {
+text-align: center;
+}
+.center_box p {
+display: inline-block;
+text-align: left;
+}
+.textarea {
+  text-align: center;
+}
