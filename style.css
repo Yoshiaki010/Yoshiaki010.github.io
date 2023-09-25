@@ -13,6 +13,9 @@ p {
     color: white;
     text-align: center;
 }
+strong {
+    color: yellow;
+}
 .author {
     text-align: right;
 }
@@ -25,4 +28,10 @@ p {
 }
 .textarea {
     text-align: center;
+}
+#table_center {
+    margin: auto;
+    border-width: 5px;
+    border-color: white;
+    background-color: beige;
 }
