@@ -34,7 +34,5 @@ strong {
 }
 #table_center {
     margin: auto;
-    border-width: 5px;
-    border-color: black;
     background-color: beige;
 }
