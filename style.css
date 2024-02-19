@@ -1,12 +1,15 @@
 body {
     background-color: white;
+    margin-top: 0px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 h1{
-    color: dimgray;
+    color: yellow;
     text-align: center;
 }
 h2,h3 {
-    color: black;
+    color: blue;
     text-align: center;
 }
 p {
@@ -16,10 +19,22 @@ p {
 strong {
     color: red;
 }
+table {
+    margin-left: auto;
+    padding: 5px;
+}
+td {
+    color: white;
+}
 p.day {
     color: #818181;
     text-align: right;
 }
 div#header {
+    color: white;
     background-color: gray;
+    width: 100%;
+}
+div#page {
+    background-color: #d7b0b0;
 }
