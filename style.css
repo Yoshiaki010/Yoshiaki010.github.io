@@ -39,3 +39,22 @@ div#header {
 div#page {
     background-color: Cornsilk;
 }
+th.test {
+    background-color: wheat;
+}
+th.menu-list {
+    background-color: aliceblue;
+}
+ .menu-list:hover ul.drop-menu-list {
+    visibility: visible;
+}
+ .drop-menu-list {
+    position: absolute;
+    top:10%; left: 100px;
+    visibility: hidden;
+    background-color: antiquewhite;
+}
+li.drop-menu-item {
+    background-color: blue;
+    text-decoration: none;
+ }

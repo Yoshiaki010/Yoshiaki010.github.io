@@ -6,38 +6,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
+    <div class="header">
         <table>
             <tr>
-                <div class ="dropdown">
-                <td id="td3" onmouseover="OnColor(this)" onmouseout="OffColor(this)">趣味</td>
-                    <ul class ="dropdown_lists">
+                <th class="dorpdown-menu" onmouseover="OnColor(this)" onmouseout="OffColor(this)">
+                    趣味
+                    <ul class ="dropdown-lists">
                         <a href="Hobby\Atcoder\index.html">Atcoder</a>
                         <a href="Hobby\Unity\index.html">Unity</a>
                     </ul>
-                </div>
-                <td id="td3" onmouseover="OnColor(this)" onmouseout="OffColor(this)">ゲーム</td>
-                    <ul class ="dropdown_lists">
+                </th>
+                <th class="dorp-menu" onmouseover="OnColor(this)" onmouseout="OffColor(this)">
+                    ゲーム
+                    <ul class ="dropdown-list">
                         <a href="Game\Pocker\index.html">Pocker</a>
+                        <a href="Game\Card\index.html">Card</a>
                     </ul>
-                </div>
-                <td id="td2" onmouseover="OnColor(this)" onmouseout="OffColor(this)">言語</td>
-                <div class ="dropdown">
-                    <ul class ="dropdown_lists">
-                        <li><a href="Language\Py\Chapter00.html" class="dropdown_list">Python</a></li>
-                        <li><a href="Language\Csharp\Chapter00.html" class="dropdown_list">C#</a></li>
-                        <li><a href="Language\Js\Chapter00.html" class="dropdown_list">JavaScript</a></li>
-                    </ul>
-                </div>
-                <div class ="dropdown">
-                    <ul class ="dropdown_lists">
-                        <li><a href="Study\ITward\index.html" class="dropdown_list">IT用語</a></li>
-                        <li><a href="Study\Univercity\Cafe.html" class="dropdown_list">大学内製作カフェHP</a></li>
-                    </ul>
-                </div>
-                <td id="td4" onmouseover="OnColor(this)" onmouseout="OffColor(this)">
+                </th>
+                <th class="dorpdown-menu" onmouseover="OnColor(this)" onmouseout="OffColor(this)">
+                    <li>
+                        言語
+                        <ul class ="dropdown-list">
+                            <a href="Language\Py\Chapter00.html" class="dropdown-item">Python</a>
+                            <a href="Language\Csharp\Chapter00.html" class="dropdown-item">C#</a>
+                            <a href="Language\Js\Chapter00.html" class="dropdown-item">JavaScript</a>
+                        </ul>
+                    </li>
+                </th>
+                <th id="dropdown-menu" onmouseover="OnColor(this)" onmouseout="OffColor(this)">
+                    <li>
+                        勉強
+                        <ul class ="dropdown-list">
+                            <a href="Study\ITward\index.html" class="dropdown-item">IT用語</a>
+                            <a href="Study\Univercity\Cafe.html" class="dropdown-item">大学内製作カフェHP</a>
+                        </ul>
+                    </li>
+                </th>
+                <th id="td4" onmouseover="OnColor(this)" onmouseout="OffColor(this)">
                     <a href="Profile">マイプロフィール</a>
-                </td>
+                </th>
             </tr>
         </table>
     </div>
