@@ -1,2 +1,45 @@
-# Yoshiaki010.github.io
-My page
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyPage</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <table>
+            <tr>
+                <td id="td2" onmouseover="OnColor(this)" onmouseout="OffColor(this)">言語</td>
+                <div class ="dropdown">
+                    <a href="">Python</a>
+                    <a href="">C#</a>
+                    <a href="">JavaScript</a>
+                </div>
+                <td id="td3" onmouseover="OnColor(this)" onmouseout="OffColor(this)">活動</td>
+                <div class ="dropdown">
+                    <a href="">Unity</a>
+                    <a href="">IVRC</a>
+                    <a href="">LavlaVirtual</a>
+                </div>
+                <td id="td4" onmouseover="OnColor(this)" onmouseout="OffColor(this)">
+                    <a href="">マイプロフィール</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="page">
+        <marquee scrollamount="3">～今週の略語は！～「 <strong>CISC</strong> 」</marquee><br>
+        <tr><p class="day">更新日:2024/3/15</p></tr>
+        <tr>
+            <h2>興味・関心の出来事</h2>
+            <ul>
+                <li>Atcoderのレートをそろそろ茶色にする</li>
+                <li>PythonでWebアプリ作ってみたい</li>
+                <li>色々な言語を学んでみたい</li>
+                <li>カードゲームをサイト上でできるようにしたい</li>
+            </ul>
+        </tr>
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>
