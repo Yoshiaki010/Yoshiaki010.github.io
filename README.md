@@ -7,6 +7,14 @@
 
 - ホームページ
 - 趣味
-- 学びの足跡（Python版）
-- 学びの足跡（C#版）
-- 学びの足跡（JavaScript版）
+  - Atcoder
+  - Unity
+- 学びの足跡
+  - Python
+  - C#
+  - JavaScript
+- 作ったもの
+  - Pocker
+  - Pokeca
+  - 大学内課題カフェHP
+- プロフィール
