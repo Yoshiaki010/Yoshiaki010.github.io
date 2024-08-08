@@ -10,11 +10,12 @@
   - Atcoder
   - Unity
 - 学びの足跡
+  - CTF-WriteUp(セキュリティ)
   - Python
   - C#
   - JavaScript
 - 作ったもの
   - Pocker
-  - Pokeca
+  - CardGame-template
   - 大学内課題カフェHP
 - プロフィール
