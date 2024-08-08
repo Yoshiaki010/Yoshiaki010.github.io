@@ -5,26 +5,32 @@ p {
     color: black;
     text-align: left;
 }
-td {
-    padding-right: 5px;
-    padding-left: 5px;
-}
 p.day {
     color: gray;
     text-align: right;
 }
-th.dropdown-menu {
+/*---プルダウンメニュー---*/
+ul.dropdown-menu {
+    padding-left: 1ex;
+    padding-right: 1ex;
     color: black;
+    display:inline-block;
 }
 ul.dropdown-list {
-    background-color:whitesmoke;
-    display: none;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    background-color: plum;
+    position:absolute;
+    display:none;
 }
-th.dropdown-menu:hover {
+ul.dropdown-menu:hover {
     background-color: white;
-    
+}    
+ul.dropdown-menu:hover ul.dropdown-list {
+    display:grid;
 }
-div.header {
+/*---ページ構成---*/
+div.header,div.footer {
     background-color:wheat;
 }
 div.page {
