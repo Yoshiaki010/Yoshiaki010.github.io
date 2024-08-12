@@ -9,6 +9,16 @@ p {
     color: black;
     text-align: left;
 }
+/*---AtcoderColor---*/
+p strong {
+    color: white;
+    margin-left: 5px;
+    background-color: gray;
+}
+iframe {
+    width: 80%;
+    margin-left: 100px;
+}
 p.day {
     color: gray;
     text-align: right;
