@@ -1,7 +1,11 @@
 body {
+    margin-top: 0px;
+    margin-bottom: 0px;
     background-color: gray;
 }
 p {
+    margin: 2px;
+    border: solid, 1px, blue;
     color: black;
     text-align: left;
 }
@@ -9,6 +13,28 @@ p.day {
     color: gray;
     text-align: right;
 }
+h1,h2,h3 {
+    margin: 2px;
+    padding: 2px;
+    border: solid, 1px, blue;
+}
+/*---div(head page foot)---*/
+div.header,div.footer {
+    border: solid, 1px, blue;
+    margin-top:5px;
+    margin-bottom: 5px;
+    background-color:wheat;
+}
+div.page {
+    border: solid, 1px, blue;
+    margin-top:5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+}
+div.footer p.back {
+    border: solid, 1px, blue;
+    text-align: right;
+ }
 /*---プルダウンメニュー---*/
 ul.dropdown-menu {
     padding-left: 1ex;
@@ -28,11 +54,4 @@ ul.dropdown-menu:hover {
 }    
 ul.dropdown-menu:hover ul.dropdown-list {
     display:grid;
-}
-/*---ページ構成---*/
-div.header,div.footer {
-    background-color:wheat;
-}
-div.page {
-    background-color: whitesmoke;
 }
