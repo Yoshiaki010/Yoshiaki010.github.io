@@ -13,7 +13,8 @@ p {
 p strong {
     color: white;
     margin-left: 5px;
-    background-color: gray;
+    background-color: chocolate;
+    border:solid,1px,black;
 }
 iframe {
     width: 80%;
@@ -31,14 +32,13 @@ h1,h2,h3 {
 /*---div(head page foot)---*/
 div.header,div.footer {
     border: solid, 1px, blue;
-    margin-top:5px;
-    margin-bottom: 5px;
     background-color:wheat;
 }
 div.page {
     border: solid, 1px, blue;
-    margin-top:5px;
-    margin-bottom: 5px;
+    padding:20px;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: whitesmoke;
 }
 div.footer p.back {
