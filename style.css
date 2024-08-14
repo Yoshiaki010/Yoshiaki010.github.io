@@ -1,6 +1,6 @@
 body {
-    margin-top: 0px;
-    margin-bottom: 0px;
+    font-size: 14pt;
+    margin: 0px;
     background-color: gray;
 }
 p {
@@ -13,7 +13,7 @@ p {
 p strong {
     color: white;
     margin-left: 5px;
-    background-color: chocolate;
+    background-color: gray;
     border:solid,1px,black;
 }
 iframe {
@@ -43,7 +43,7 @@ div.page {
 }
 div.footer p.back {
     border: solid, 1px, blue;
-    text-align: right;
+    text-align: center;
  }
 /*---プルダウンメニュー---*/
 ul.dropdown-menu {
