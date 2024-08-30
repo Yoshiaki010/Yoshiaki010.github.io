@@ -58,12 +58,17 @@ p.trash{
 div.player{
     margin:20%;
     margin-top:5%;
+    margin-bottom:5%;
     background-color:peru;
     border:solid,2px,blue;
     width: 1150px;
     height: 700px;
     padding-left: 5px;
 }
-div.player me{
+div#me{
+    background-color:wheat;
+}
+div#enemy{
+    transform: scale(1,-1);
     background-color:wheat;
 }
